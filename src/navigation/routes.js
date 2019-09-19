@@ -1,19 +1,20 @@
 import React from 'react';
 import { createDrawerNavigator, createStackNavigator } from "react-navigation";
-import HomeScreen from '@/viewscreens/HomeScreen';
+import FindScreen from '@/viewscreens/FindScreen';
+import VoiceSenderScreen from '@/viewscreens/VoiceSenderScreen';
 import SideBar from '@/viewcomponents/SideBar';
 
 const StackNavigator = createStackNavigator(
   {
-    Home: {
-      screen: HomeScreen
+    Find: {
+      screen: FindScreen
     }
   },
   {
-    initialRouteName: 'Home',
+    initialRouteName: 'Find',
     defaultNavigationOptions: {
       headerStyle: {
-        backgroundColor: '#7e57c2',
+        backgroundColor: '#F06292',
       },
       headerTintColor: '#fff',
       headerTitleStyle: {
