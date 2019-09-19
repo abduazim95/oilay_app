@@ -1,7 +1,7 @@
 # Oilay APP
 
 
-<p align="center"><img src="images/Preview1.jpeg" alt="Preview1" width="200"/><img src="images/Preview2.jpeg" alt="Preview2" width="200"/></p>
+<p align="center"><img src="images/Preview1.jpeg" alt="Preview1" width="200"/><img src="images/Preview2.jpeg" alt="Preview2" width="200"/><img src="images/Preview3.jpeg" alt="Preview3" width="200"/></p>
 
 ## React native CLI installation
 > npm install -g react-native-cli
