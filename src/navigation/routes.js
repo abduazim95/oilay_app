@@ -8,6 +8,9 @@ const StackNavigator = createStackNavigator(
   {
     Find: {
       screen: FindScreen
+    },
+    VoiceSender: {
+      screen: VoiceSenderScreen
     }
   },
   {

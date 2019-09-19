@@ -52,7 +52,7 @@ class Find extends React.Component {
           renderRow={order =>
             <ListItem
               button
-              onPress={() => (null)}
+              onPress={() => (this.props.navigation.navigate('VoiceSender'))}
             >
               <Body><Text>{order}</Text></Body>
               <Right><Icon active name="angle-right" /></Right>
